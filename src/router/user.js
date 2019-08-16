@@ -12,4 +12,4 @@ router.get('/info', async (ctx, next) => {
     };
 })
 
-export default router;
+export default router.routes();

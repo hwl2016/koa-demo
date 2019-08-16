@@ -1,3 +1,6 @@
+#!/bin/bash
+echo 'openssl'
+
 #1、生成私钥key文件：
 openssl genrsa -out privatekey.pem 1024
 
